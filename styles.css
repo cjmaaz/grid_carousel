@@ -21,7 +21,7 @@
   border: 1px solid black;
   border-radius: 0.5em;
   width: max-content;
-  flex: 1 1 auto;
+  flex: 1 1 100px;
   text-align: center;
 }
 .eachPage i {
@@ -29,20 +29,22 @@
 }
 .eachPage {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .leftIcon {
   position: absolute;
-  margin-top: 90px;
-  left: 25px;
+  top: 90px;
+  left: 10px;
 }
 .rightIcon {
   position: absolute;
   top: 90px;
-  right: 25px;
+  right: 10px;
 }
 .allPage {
-  margin: 1em;
-  padding: 1em;
+  margin: 5px;
+  padding: 5px;
   border: 1px solid black;
   border-radius: 0.5em;
 }
