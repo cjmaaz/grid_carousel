@@ -1,0 +1,48 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.carouselContainer {
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+}
+.eachPage .eachImage {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  width: max-content;
+  flex: 1 1 auto;
+  text-align: center;
+}
+.eachPage i {
+  font-size: 5em;
+}
+.eachPage {
+  display: flex;
+}
+.leftIcon {
+  position: absolute;
+  margin-top: 90px;
+  left: 25px;
+}
+.rightIcon {
+  position: absolute;
+  top: 90px;
+  right: 25px;
+}
+.allPage {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+}
