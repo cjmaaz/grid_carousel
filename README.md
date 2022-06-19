@@ -1,3 +1,3 @@
-# web-platform-xjgeaj
+# Responsive Grid Carousel
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-xjgeaj)
+[View the live version](//https://gridcarousel.web.app/)
